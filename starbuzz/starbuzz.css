@@ -101,16 +101,28 @@ border-spacing: 10px;
   height: 100px;
   background-position: -400px,0px;
 }
+
+
+
 .award{
   position: absolute;
   top: 30px;
   left: 365px;
+  line-height: auto;
 }
 #coupon{
   position: fixed;
   top: 350px;
-  left: 0px;
+  left: -220px;
+  transition: all 0.1s linear;
 }
-#coupon a,img{
+
+#coupon:hover{
+  left:0px;
+}
+#coupon img{
   border: none;
+}
+nav{
+  
 }
